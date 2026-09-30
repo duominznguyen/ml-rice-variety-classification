@@ -1,0 +1,106 @@
+{
+  "name": "pre_pruned_tree",
+  "trained_at": "2026-09-30T16:37:47.384799+00:00",
+  "hyperparameters": {
+    "max_depth": 6
+  },
+  "metrics": {
+    "train_accuracy": 0.9437781109445277,
+    "val_accuracy": 0.9457092819614711,
+    "test": {
+      "accuracy": 0.9036777583187391,
+      "confusion_matrix": [
+        [
+          207,
+          37
+        ],
+        [
+          18,
+          309
+        ]
+      ],
+      "labels": [
+        "Cammeo",
+        "Osmancik"
+      ],
+      "per_class": {
+        "Cammeo": {
+          "precision": 0.92,
+          "recall": 0.8483606557377049,
+          "f1": 0.8827292110874201,
+          "support": 244
+        },
+        "Osmancik": {
+          "precision": 0.8930635838150289,
+          "recall": 0.944954128440367,
+          "f1": 0.9182763744427935,
+          "support": 327
+        },
+        "macro_avg": {
+          "precision": 0.9065317919075144,
+          "recall": 0.8966573920890359,
+          "f1": 0.9005027927651068,
+          "support": 571
+        }
+      }
+    },
+    "max_depth_sweep": [
+      {
+        "max_depth": 1,
+        "val_accuracy": 0.9387040280210157
+      },
+      {
+        "max_depth": 2,
+        "val_accuracy": 0.9387040280210157
+      },
+      {
+        "max_depth": 3,
+        "val_accuracy": 0.9404553415061296
+      },
+      {
+        "max_depth": 4,
+        "val_accuracy": 0.9439579684763573
+      },
+      {
+        "max_depth": 5,
+        "val_accuracy": 0.9422066549912435
+      },
+      {
+        "max_depth": 6,
+        "val_accuracy": 0.9457092819614711
+      },
+      {
+        "max_depth": 7,
+        "val_accuracy": 0.9387040280210157
+      },
+      {
+        "max_depth": 8,
+        "val_accuracy": 0.9352014010507881
+      },
+      {
+        "max_depth": 9,
+        "val_accuracy": 0.9281961471103327
+      },
+      {
+        "max_depth": 10,
+        "val_accuracy": 0.9229422066549913
+      },
+      {
+        "max_depth": 12,
+        "val_accuracy": 0.9089316987740805
+      },
+      {
+        "max_depth": 15,
+        "val_accuracy": 0.9001751313485113
+      },
+      {
+        "max_depth": 20,
+        "val_accuracy": 0.8914185639229422
+      },
+      {
+        "max_depth": null,
+        "val_accuracy": 0.8914185639229422
+      }
+    ]
+  }
+}
